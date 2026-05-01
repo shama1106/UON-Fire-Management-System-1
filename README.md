@@ -129,4 +129,43 @@ This system provides:
 
 ---
 
-## 📁 Repository Structure
+
+---
+
+## 👥 Team
+
+Group 3 – INFO6030  
+University of Newcastle  
+
+---
+
+## 📈 Business Impact
+
+This project demonstrates:
+
+- 🎯 Strong System Analysis Skills  
+- 🧠 Problem Solving & Architecture Design  
+- 🔐 Security & Risk Awareness  
+- 📊 Data-driven Decision Support  
+
+---
+
+## 🚀 Future Enhancements
+
+- 🤖 AI-based fire prediction  
+- 📱 Mobile emergency response app  
+- 🌐 IoT sensor integration  
+- 📊 Live analytics dashboard  
+
+---
+
+## ⭐ Final Note
+
+This project represents a **real-world system design solution**, showcasing end-to-end understanding of:
+- Requirements → Design → Validation → Deployment
+
+---
+
+<p align="center">
+  💼 Open to roles: Business Analyst | IT Consultant | Data Analyst
+</p>
