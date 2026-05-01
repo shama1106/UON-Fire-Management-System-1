@@ -1,146 +1,132 @@
 # 🔥 UON Fire Management System (FMS)
 
+<p align="center">
+  🚨 Real-Time Fire Monitoring | 🧠 Smart Incident Management | 🔐 Secure System Design
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-System%20Design-blue">
+  <img src="https://img.shields.io/badge/Tools-UML%20|%20Visio%20|%20MS%20Project-green">
+  <img src="https://img.shields.io/badge/Domain-Fire%20Safety-red">
+  <img src="https://img.shields.io/badge/Level-Advanced-orange">
+</p>
+
+---
+
 ## 📊 Project Overview
-This project focuses on designing a **Fire Management System (FMS)** for the University of Newcastle.  
-The system ensures **real-time fire monitoring, incident reporting, emergency response coordination, and safety compliance** across university facilities.
 
-This project was developed as part of **INFO6030 – System Analysis and Design**.
+The **UON Fire Management System (FMS)** is a comprehensive system design project developed to improve **fire safety operations, emergency response, and real-time monitoring** across university facilities.
 
----
-
-## 🎯 Objectives
-- Develop a **user-friendly web interface** for fire management
-- Enable **real-time monitoring of Fire Indicator Panels (FIP)**
-- Support **incident reporting and emergency decision-making**
-- Ensure **high reliability, safety, and compliance**
-- Provide **automated reporting and performance analysis**
+It focuses on building a **secure, scalable, and intelligent fire management platform** using system analysis and UML modelling.
 
 ---
 
-## 🏗️ System Modules / Subsystems
+## 🎯 Business Problem
 
-### 1. Asset Management
-- Register and manage fire safety assets  
-- Track maintenance schedules  
-- Generate asset reports  
-
-### 2. User Management
-- User authentication & authorization  
-- Role-based access control  
-- Profile and account management  
-
-### 3. Event Management
-- Log fire incidents  
-- Assign response teams  
-- Send notifications  
-- Prioritize emergencies  
-
-### 4. Operation Management
-- Dispatch fire response teams  
-- Allocate resources  
-- Monitor operations and performance  
-
-### 5. Reporting System
-- Generate incident and compliance reports  
-- Archive and analyze reports  
-- Support decision-making  
-
-### 6. FIP Management System
-- Monitor Fire Indicator Panels in real-time  
-- Detect abnormalities and trigger alerts  
-- Log system status and diagnostics  
+Universities face challenges in:
+- 🚫 Delayed fire incident response  
+- 📉 Lack of real-time monitoring  
+- 🔐 Poor access control and security risks  
+- 📊 Limited reporting & analytics  
 
 ---
 
-## 📐 System Design Artifacts
+## 💡 Solution
 
-This project includes:
+This system provides:
 
-- ✅ Use Case Diagrams  
-- ✅ Activity Diagrams  
-- ✅ Class Diagrams  
-- ✅ Sequence Diagrams  
-- ✅ Subsystem Design  
-- ✅ Business Rules (60+ rules implemented)  
+- ✅ Real-time monitoring of Fire Indicator Panels (FIP)  
+- ✅ Automated alert & notification system  
+- ✅ Centralized incident reporting  
+- ✅ Role-based secure access  
+- ✅ Data-driven reporting & decision support  
+
+---
+
+## 🧠 System Architecture
+
+### 🔹 Class Diagram
+![Class Diagram](images/class-diagram.png)
+
+---
+
+### 🔹 Activity Flow (Incident Reporting)
+![Activity Diagram](images/activity-diagram.png)
+
+---
+
+### 🔹 Use Case Overview
+![Use Case Diagram](images/usecase-diagram.png)
+
+---
+
+### 🔹 System Interaction (Sequence)
+![Sequence Diagram](images/sequence-diagram.png)
+
+---
+
+## 🏗️ Core Modules
+
+| Module | Description |
+|------|------------|
+| 🔧 Asset Management | Tracks fire safety assets & maintenance |
+| 👤 User Management | Authentication, roles, permissions |
+| 🚨 Event Management | Incident logging & prioritization |
+| ⚙️ Operations | Resource allocation & response |
+| 📊 Reporting | Analytics & compliance reports |
+| 📡 FIP Monitoring | Real-time fire system tracking |
 
 ---
 
 ## 🔍 Key Features
 
-- Real-time fire monitoring system  
-- Automated alert generation  
-- Secure login with authentication & encryption  
-- Role-based access control  
-- Incident reporting and tracking  
-- System logging and audit tracking  
-- Backup, rollback & configuration management  
+- 🔴 Real-time fire detection monitoring  
+- ⚡ Instant alert generation system  
+- 🔐 Secure login with encryption & MFA  
+- 👥 Role-based access control  
+- 📊 Automated reporting dashboard  
+- 📝 Full audit logging system  
+- 🔄 Backup & rollback mechanisms  
 
 ---
 
-## 🧠 Business Rules
+## 📜 Business Rules Engine
 
-The system is governed by **60+ business rules**, including:
-
-- Incident data must be recorded before reporting  
-- Only authorized users can access reports  
-- Password encryption and security policies  
-- Multi-factor authentication  
-- Real-time alerts for abnormal system status  
+- ✔ 60+ business rules implemented  
+- ✔ Incident validation before reporting  
+- ✔ Secure authentication & encryption  
+- ✔ Access control policies  
+- ✔ Compliance with fire safety regulations  
 
 ---
 
 ## 🧪 Testing Strategy
 
-- Unit Testing  
-- Integration Testing  
-- System Testing  
-- User Acceptance Testing (UAT)  
-
-Includes test cases such as:
-- User login validation  
-- High concurrent system access  
-- Incident data processing  
+| Level | Description |
+|------|------------|
+| Unit Testing | Individual components |
+| Integration Testing | Subsystem interaction |
+| System Testing | End-to-end validation |
+| UAT | Real-world usability |
 
 ---
 
 ## ⚠️ Risk & Deployment
 
-- Risk assessment included  
-- Phased deployment strategy  
-- Backup & rollback mechanisms  
-- Continuous monitoring and logging  
+- 🚧 Risk assessment included  
+- 🔁 Backup & rollback support  
+- 📦 Phased deployment strategy  
+- 🔍 Continuous monitoring  
 
 ---
 
-## 📁 Files Included
+## 🛠️ Tools & Technologies
 
-- `Assignment Report.pdf` – Full system documentation  
-- `Diagrams` – UML diagrams (Use Case, Class, Activity, Sequence)  
-- `Project Plan (.mpp)` – Project scheduling file  
-
----
-
-## 👥 Team Members
-- Shama Praveen  
-- Yin Ho Chan  
-- Zheng Liang  
-- Saurabh Dev  
-- Kun Zhang  
+- UML Diagrams (Use Case, Class, Activity, Sequence)  
+- Microsoft Visio  
+- MS Project (.mpp)  
+- System Analysis & Design Techniques  
 
 ---
 
-## 📌 Summary
-This project demonstrates a **complete system design lifecycle**, including requirement analysis, UML modelling, security design, and system architecture for a real-world fire management system.
-
-It highlights strong skills in:
-- System Analysis & Design  
-- UML Modelling  
-- Business Rule Implementation  
-- Software Architecture  
-
----
-
-## 🚀 Future Improvements
-- Integration with IoT fire sensors  
-- AI-based fire prediction system  
-- Mobile app for emergency response  
+## 📁 Repository Structure
