@@ -46,24 +46,16 @@ This system provides:
 ## 🧠 System Architecture
 
 ### 🔹 Class Diagram
-![Class Diagram](images/class-diagram.png)
 
----
 
 ### 🔹 Activity Flow (Incident Reporting)
-![Activity Diagram](images/activity-diagram.png)
 
----
 
 ### 🔹 Use Case Overview
-![Use Case Diagram](images/usecase-diagram.png)
 
----
 
 ### 🔹 System Interaction (Sequence)
-![Sequence Diagram](images/sequence-diagram.png)
 
----
 
 ## 🏗️ Core Modules
 
